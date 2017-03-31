@@ -202,6 +202,11 @@ public class TUGAS1 extends javax.swing.JFrame {
 
         buttonGroup1.add(reg);
         reg.setText("Reguler");
+        reg.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                regActionPerformed(evt);
+            }
+        });
         jPanel3.add(reg, new org.netbeans.lib.awtextra.AbsoluteConstraints(194, 82, -1, -1));
 
         jLabel9.setText("Total Harga");
@@ -373,6 +378,10 @@ public class TUGAS1 extends javax.swing.JFrame {
             totalharga.setText(String.valueOf(total));
         }
     }//GEN-LAST:event_proActionPerformed
+
+    private void regActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_regActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_regActionPerformed
 
     /**
      * @param args the command line arguments
